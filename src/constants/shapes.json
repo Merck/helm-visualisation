@@ -1,0 +1,7 @@
+{
+  "MAP_POLYMER_SHAPE": {
+    "PEPTIDE": 5,
+    "RNA": 1,
+    "CHEM": 2
+  }
+}

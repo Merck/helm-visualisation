@@ -1,0 +1,41 @@
+{
+  "name": "helm-visualisation",
+  "version": "1.0.0",
+  "description": "Library for parsing HELM strings and generating SVG representation of this HELM",
+  "keywords": [
+    "HELM",
+    "visualisation",
+    "visualization"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "module",
+  "author": "Viktor Pisarenko",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.5",
+    "jest": "^26.2.1",
+    "lint-staged": "^10.2.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
